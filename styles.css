@@ -1,23 +1,28 @@
-
-body{
-    background-color: rgb(230, 200, 161);
+body {
+  background-color: rgb(247, 245, 243);
 }
 
+h1 {
+  text-align: center;
+  position: relative;
 
-h1{
-    text-align: center;
-    position:relative; 
-    
-
-    top:30px; 
-    color:rgb(72, 75, 245);
+  top: 30px;
+  color: rgb(72, 75, 245);
 }
 
-p{
-    text-align: center; 
-    position:relative; 
-    
-    top: 100px; 
-    color:rgb(0, 0, 0);
+p {
+  text-align: center;
+  position: relative;
 
+  top: 100px;
+  color: rgb(0, 0, 0);
+}
+
+.img-container {
+  display: flex;
+  margin: 10;
+
+  position: relative;
+  left: 80px;
+  top: 2px;
 }
